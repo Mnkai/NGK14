@@ -1,0 +1,17 @@
+priority:
+  # default build (NGK14)
+  - name: rockbox-nimbus14
+    file: ../src/upstream/rockbox-14-Nimbus.bdf
+  - name: galmuri11
+    file: ../src/upstream/Galmuri11.bdf
+  - name: k12_jisx0213
+    file: ../src/upstream/k12-2000-1.bdf
+
+align: center
+xshift: 0
+yshift: 0
+
+out:
+  family: "NGK14"
+  pixel_height: 14
+  version: "1.0.0"
